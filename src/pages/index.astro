@@ -11,6 +11,9 @@ const posts = (await getCollection("blog", ({ data }) => !data.draft)).sort(
 <BaseLayout>
   <h1 class="page-title">{siteConfig.title}</h1>
   <p class="page-lede">{siteConfig.bio}</p>
+  <p class="site-powered-by">
+    这是 <a href="https://github.com/YangHanqing/TinyBlog" target="_blank" rel="noopener">TinyBlog</a> 项目的一个实例。
+  </p>
 
   <ul class="post-list">
     {

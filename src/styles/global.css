@@ -134,6 +134,12 @@ main {
   margin: 0 0 2.5rem;
 }
 
+.site-powered-by {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: -1.5rem 0 2.5rem;
+}
+
 .post-list {
   list-style: none;
   margin: 0;
