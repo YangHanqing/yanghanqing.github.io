@@ -14,6 +14,14 @@
   --content-width: 42rem;
 }
 
+[data-lang] {
+  display: none;
+}
+html[data-locale="en"] [data-lang="en"],
+html[data-locale="zh"] [data-lang="zh"] {
+  display: revert;
+}
+
 [data-theme="dark"] {
   --bg: #0f1115;
   --bg-subtle: #171a21;
@@ -132,12 +140,6 @@ main {
   color: var(--text-muted);
   font-size: 1.05rem;
   margin: 0 0 2.5rem;
-}
-
-.site-powered-by {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin: -1.5rem 0 2.5rem;
 }
 
 .post-list {

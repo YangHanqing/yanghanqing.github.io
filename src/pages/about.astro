@@ -3,13 +3,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout title="关于">
-  <h1 class="page-title">关于</h1>
+  <h1 class="page-title">
+    <span data-lang="zh">关于</span>
+    <span data-lang="en">About</span>
+  </h1>
   <div class="prose">
-    <p>写代码的人，也写字。</p>
     <p>
-      这里没有简历，没有头衔，只有一些想法落地的地方——
-      有时候是一段能跑起来的程序，有时候只是一句话。
+      <span data-lang="zh">写代码的人，也写字。</span>
+      <span data-lang="en">A person who writes code, and also writes.</span>
     </p>
-    <p>欢迎路过，欢迎留言。</p>
+    <p>
+      <span data-lang="zh">
+        这里没有简历，没有头衔，只有一些想法落地的地方——
+        有时候是一段能跑起来的程序，有时候只是一句话。
+      </span>
+      <span data-lang="en">
+        No résumé here, no titles — just a place where ideas land, sometimes
+        as a program that runs, sometimes as a single sentence.
+      </span>
+    </p>
+    <p>
+      <span data-lang="zh">欢迎路过，欢迎留言。</span>
+      <span data-lang="en">Glad you stopped by. Feel free to leave a comment.</span>
+    </p>
   </div>
 </BaseLayout>
